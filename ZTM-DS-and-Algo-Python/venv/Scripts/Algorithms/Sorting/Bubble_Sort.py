@@ -1,7 +1,7 @@
-#In Bubble Sort, the largest value is bubbled up in every pass.
-#Every two adjacent items are compared and they are swapped if they are in the wrong order.
-#This way, after every pass, the largest element reaches to the end of the array.
-#Time complexity of Bubble Sort in Worst and Average Case is O(n^2) and in best case, its O(n)
+# In Bubble Sort, the largest value is bubbled up in every pass.
+# Every two adjacent items are compared and they are swapped if they are in the wrong order.
+# This way, after every pass, the largest element reaches to the end of the array.
+# Time complexity of Bubble Sort in Worst and Average Case is O(n^2) and in best case, its O(n)
 
 def bubble_sort(array):
     count = 0
@@ -44,9 +44,9 @@ Number of comparisons = 10
 
 
 
-#We can optimize the bubble sort slightly by adding a new boolean variable
-#which keeps track of wehether any swaps were done in the last iteration or not
-#This way, if say halfway through the loops, the array becomes completely sorted, then we won't do unnecessary comparisons
+# We can optimize the bubble sort slightly by adding a new boolean variable
+# which keeps track of wehether any swaps were done in the last iteration or not
+# This way, if say halfway through the loops, the array becomes completely sorted, then we won't do unnecessary comparisons
 def optimized_bubble_sort(array):
     count = 0
     for i in range(len(array) - 1):
